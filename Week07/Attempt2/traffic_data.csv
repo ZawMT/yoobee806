@@ -1,0 +1,9 @@
+Road ID,Distance (km),Current Density,Past Density,Weightage,Estimated Density
+FG,0.5,60,50,0.5,55
+GB,0.5,80,70,0.5,75
+BD (School),0.5,180,150,0.8,174
+DP,0.5,70,60,0.5,65
+FH,0.8,60,50,0.5,55
+HM,0.8,80,70,0.5,75
+MN,0.8,50,40,0.5,45
+NP,0.8,70,60,0.5,65
