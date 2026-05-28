@@ -16,7 +16,7 @@ Past and Present Traffic Density and Weightages are generated randomly for the s
 The script will run and draw for 24 hours frame generating data for each hour for simulation. Below is a sample chart from one simulation run. From here, what we can understand is the Route 1 (Blue) will have higher density most of the time, especially in the school rush hours. So, most of the time, the choice will be Route 2 (Red).
 ![Simulation](./Attempt2/images/route_comparison.png)
 
-The road density estimation formula is as follows:
+The road density estimation formula is as follows:   
 `Estimated Density = Weightage * Current Density + (1 - Weightage) * Past Density`
 
 This formula is comparable to the classic slope formula **y = mx + b** where **m (coefficient)** is the Weightage — how much trust is given to the live traffic reading — and **b (intercept)** is `(1 − m) × Past Density` — the historical baseline the system falls back on.
